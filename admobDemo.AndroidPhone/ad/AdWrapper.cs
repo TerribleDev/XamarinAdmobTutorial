@@ -23,7 +23,6 @@ namespace admobDemo.AndroidPhone.ad
         {
             var ad = new InterstitialAd(con);
             ad.AdUnitId = UnitID;
-            var requestbuilder = new AdRequest.Builder();
             return ad;
         }
 
