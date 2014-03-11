@@ -46,8 +46,8 @@ namespace admobDemo.AndroidPhone
             //-------------------------------------------------InterstitialAd stuff
             var FinalAd = AdWrapper.ConstructFullPageAdd(this, "your ad id here");
             var intlistener = new admobDemo.adlistener();
-            listener.AdLoaded += () => { if (FinalAd.IsLoaded)FinalAd.Show(); };
-            FinalAd.AdListener = listener;
+            intlistener.AdLoaded += () => { if (FinalAd.IsLoaded)FinalAd.Show(); };
+            FinalAd.AdListener = intlistener;
             FinalAd.CustomBuild();
             //-------------------------------------------------------------
 
