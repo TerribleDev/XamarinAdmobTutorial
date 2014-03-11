@@ -31,10 +31,4 @@ using Android.App;
 
 // Add some common permissions, these can be removed if not needed
 [assembly: UsesPermission(Android.Manifest.Permission.Internet)]
-[assembly: UsesPermission(Android.Manifest.Permission.WriteSecureSettings)]
-[assembly: UsesPermission(Android.Manifest.Permission.WriteProfile)]
-[assembly: UsesPermission(Android.Manifest.Permission.ReadContacts)]
-[assembly: UsesPermission(Android.Manifest.Permission.WriteContacts)]
-[assembly: UsesPermission(Android.Manifest.Permission.ReceiveBootCompleted)]
 [assembly: UsesPermission(Android.Manifest.Permission.AccessNetworkState)]
-[assembly: UsesPermission(Android.Manifest.Permission.WriteExternalStorage)]
