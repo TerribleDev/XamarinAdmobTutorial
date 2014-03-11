@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admobDemo", "admobDemo\admobDemo.csproj", "{7B69DC2C-3C62-401C-9CC5-E741F88EAEA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admobDemo.AndroidPhone", "admobDemo.AndroidPhone\admobDemo.AndroidPhone.csproj", "{D46EB512-82D3-4742-8A8E-9A1115D289B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B69DC2C-3C62-401C-9CC5-E741F88EAEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B69DC2C-3C62-401C-9CC5-E741F88EAEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B69DC2C-3C62-401C-9CC5-E741F88EAEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B69DC2C-3C62-401C-9CC5-E741F88EAEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46EB512-82D3-4742-8A8E-9A1115D289B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46EB512-82D3-4742-8A8E-9A1115D289B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46EB512-82D3-4742-8A8E-9A1115D289B9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D46EB512-82D3-4742-8A8E-9A1115D289B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46EB512-82D3-4742-8A8E-9A1115D289B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46EB512-82D3-4742-8A8E-9A1115D289B9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
